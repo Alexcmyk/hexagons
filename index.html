@@ -40,19 +40,19 @@
       <section class="store">
         <div class="container">
             <h2>Store</h2>
-            <nav>
-                <a href="#" class="store-selected">All</a>
-                <a href="#">Albums</a>
-                <a href="#">Singles</a>
-                <a href="#">Vinyl</a>
+            <nav class="filters-list">
+                <a href="#" class="store-selected" data-filter=".product">All</a>
+                <a href="#" data-filter=".albums">Albums</a>
+                <a href="#" data-filter=".singles">Singles</a>
+                <a href="#" data-filter=".vinyls">Vinyl</a>
             </nav>
             <div class="products grid">
-                    <img src="./1-Assets/hexagon.jpg" alt="">
-                    <img src="./1-Assets/happy.jpg" alt="">
-                    <img src="./1-Assets/red-and-blue.jpg" alt="">
-                    <img src="./1-Assets/shapeshifters.jpg" alt="">
-                    <img src="./1-Assets/the-maze.jpg" alt="">
-                    <img src="./1-Assets/vi.jpg" alt="">
+                    <img src="./1-Assets/hexagon.jpg" class="product albums" alt="Hexagons self-titles">
+                    <img src="./1-Assets/happy.jpg" class="product albums" alt="Hexagons happy album">
+                    <img src="./1-Assets/red-and-blue.jpg"  class="product singles" alt="Hexagons red and blue album">
+                    <img src="./1-Assets/shapeshifters.jpg" class="product singles" alt="Hexagons shapeshifters">
+                    <img src="./1-Assets/the-maze.jpg" class="product vinyls" alt="Hexagons the maze">
+                    <img src="./1-Assets/vi.jpg" class="product vinyls" alt="Hexagons vi">
             </div>
         </div>
       </section>
@@ -60,7 +60,7 @@
           <img src="./1-Assets/logo.svg" alt="Hexagon logo">
       </footer>
         
-        <script src="./jquery.js" async defer></script>
-        <script src="./main.js" async defer></script>
+      <script src="./jquery.js"></script>
+      <script src="./main.js"></script>
     </body>
 </html>

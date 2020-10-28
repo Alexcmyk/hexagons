@@ -245,6 +245,10 @@ section.store nav a {
   margin-right: 10px;
 }
 
+.products {
+  min-height: 700px;
+}
+
 footer {
   background-color: #2c9bff;
   padding: 15px;
